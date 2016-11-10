@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<block>
+  <name>APS Stack</name>
+  <key>tfg_APS_stack</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.APS_stack($debugInput, $debugOutput)</make>
+
+  <param>
+    <name>Debug Input</name>
+    <key>debugInput</key>
+    <value>False</value>
+    <type>bool</type>
+    <option>
+        <name>Enable</name>
+            <key>True</key>
+    </option>
+    <option>
+        <name>Disable</name>
+            <key>False</key>
+    </option>
+  </param>
+  
+  <param>
+    <name>Debug Output</name>
+    <key>debugOutput</key>
+    <value>False</value>
+    <type>bool</type>
+    <option>
+        <name>Enable</name>
+            <key>True</key>
+    </option>
+    <option>
+        <name>Disable</name>
+            <key>False</key>
+    </option>
+  </param>
+  
+  <sink>
+    <name>in(ZCL)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <sink>
+    <name>in(NWK)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>out(NWK)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+  
+  <source>
+    <name>out(ZCL)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

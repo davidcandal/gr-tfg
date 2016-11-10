@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<block>
+  <name>Test MAC</name>
+  <key>tfg_test_mac</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.test_mac()</make>
+  
+  <sink>
+    <name>entrada</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>salida</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

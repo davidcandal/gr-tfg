@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1NWK__stack" kind="class" language="C++" prot="public">
+    <compoundname>gr::tfg::NWK_stack</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="NWK__stack_8h" local="no">NWK_stack.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1tfg_1_1NWK__stack_1a583a264704ca402ccab64326370629a5" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1tfg_1_1NWK__stack" kindref="compound">NWK_stack</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;NWK_stack&gt; gr::tfg::NWK_stack::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/NWK_stack.h" line="39" column="1" bodyfile="/home/zigbee/gr-tfg/include/tfg/NWK_stack.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1NWK__stack_1a0cc72e7f245ead2836e5b5b031d54c92" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1tfg_1_1NWK__stack_1a583a264704ca402ccab64326370629a5" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::tfg::NWK_stack::make</definition>
+        <argsstring>(bool debugInput, bool debugOutput)</argsstring>
+        <name>make</name>
+        <param>
+          <type>bool</type>
+          <declname>debugInput</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debugOutput</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1tfg_1_1NWK__stack" kindref="compound">tfg::NWK_stack</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1tfg_1_1NWK__stack" kindref="compound">tfg::NWK_stack</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1tfg_1_1NWK__stack_1a0cc72e7f245ead2836e5b5b031d54c92" kindref="member">tfg::NWK_stack::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/NWK_stack.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>block</label>
+      </node>
+      <node id="32">
+        <label>gr::tfg::NWK_stack</label>
+        <link refid="classgr_1_1tfg_1_1NWK__stack"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>block</label>
+      </node>
+      <node id="34">
+        <label>gr::tfg::NWK_stack</label>
+        <link refid="classgr_1_1tfg_1_1NWK__stack"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zigbee/gr-tfg/include/tfg/NWK_stack.h" line="37" column="1" bodyfile="/home/zigbee/gr-tfg/include/tfg/NWK_stack.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1NWK__stack_1a0cc72e7f245ead2836e5b5b031d54c92" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack</scope><name>make</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack_1a583a264704ca402ccab64326370629a5" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

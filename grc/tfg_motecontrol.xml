@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<block>
+  <name>Control de motas</name>
+  <key>tfg_motecontrol</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.motecontrol()</make>
+  <callback>toggleRed($red)</callback>
+  <callback>toggleGreen($green)</callback>
+  <callback>toggleYellow($yellow)</callback>
+  
+  <sink>
+    <name>in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <sink>
+    <name>beacon</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>out</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

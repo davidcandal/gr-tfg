@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<block>
+  <name>Aplication</name>
+  <key>tfg_Aplication</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.Aplication()</make>
+
+  <callback>send($send)</callback>
+  <callback>setPayload($payload)</callback>
+  <callback>toggleRedLed($led)</callback>
+  <callback>toggleGreenLed($led)</callback>
+  <callback>toggleYellowLed($led)</callback>
+
+  <callback>setMAC_frameType($mac_frameType)</callback>
+  <callback>setMAC_frameType($MAC_frameType)</callback>
+  <callback>setMAC_security($MAC_security)</callback>
+  <callback>setMAC_framePending($MAC_framePending)</callback>
+  <callback>setMAC_ackRequest($MAC_ackRequest)</callback>
+  <callback>setMAC_intraPAN($MAC_intraPAN)</callback>
+  <callback>setMAC_destMode($MAC_destMode)</callback>
+  <callback>setMAC_srcMode($MAC_srcMode)</callback>
+  <callback>setMAC_destPAN($MAC_destPAN)</callback>
+  <callback>setMAC_destAddress($MAC_destAddress)</callback>
+  <callback>setMAC_srcPAN($MAC_srcPAN)</callback>
+  <callback>setMAC_srcAddress($MAC_srcAddress)</callback>
+
+  <callback>setNWK_frameType($NWK_frameType)</callback>
+  <callback>setNWK_discoverRoute($NWK_discoverRoute)</callback>
+  <callback>setNWK_multicastFlag($NWK_multicastFlag)</callback>
+  <callback>setNWK_security($NWK_security)</callback>
+  <callback>setNWK_sourceRoute($NWK_sourceRoute)</callback>
+  <callback>setNWK_hasDestIEEE($NWK_hasDestIEEE)</callback>
+  <callback>setNWK_hasSrcIEEE($NWK_hasSrcIEEE)</callback>
+  <callback>setNWK_destinationAdd($NWK_destinationAdd)</callback>
+  <callback>setNWK_sourceAdd($NWK_sourceAdd)</callback>
+  <callback>setNWK_radius($NWK_radius)</callback>
+  <callback>setNWK_destinationIEEE($NWK_destinationIEEE)</callback>
+  <callback>setNWK_sourceIEEE($NWK_sourceIEEE)</callback>
+  <callback>setNWK_multicastMember($NWK_multicastMember)</callback>
+  <callback>setNWK_multicastRadius($NWK_multicastRadius)</callback>
+  <callback>setNWK_multicastMaxRadius($NWK_multicastMaxRadius)</callback>
+  <callback>setNWK_SourceRoute($sourceRoute)</callback>
+      
+  <callback>setAPS_frameType($APS_frameType)</callback>
+  <callback>setAPS_deliveryMode($APS_deliveryMode)</callback>
+  <callback>setAPS_ackFormat($APS_ackFormat)</callback>
+  <callback>setAPS_security($APS_security)</callback>
+  <callback>setAPS_ackRequest($APS_ackRequest)</callback>
+  <callback>setAPS_extHeaderPresent($APS_extHeaderPresent)</callback>
+  <callback>setAPS_destinationEndpoint($APS_destinationEndpoint)</callback>
+  <callback>setAPS_groupAdd($APS_groupAdd)</callback>
+  <callback>setAPS_clusterID($APS_clusterID)</callback>
+  <callback>setAPS_profileID($APS_profileID)</callback>
+  <callback>setAPS_sourceEndpoint($APS_sourceEndpoint)</callback>
+  <callback>setAPS_fragmentation($APS_fragmentation)</callback>
+  <callback>setAPS_blockNumber($APS_blockNumber)</callback>
+  <callback>setAPS_ackBitfield($APS_ackBitfield)</callback>
+  <callback>setAPS_commandID($APS_commandID)</callback>
+  
+  <sink>
+    <name>in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>out</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

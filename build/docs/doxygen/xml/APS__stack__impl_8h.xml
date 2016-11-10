@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="APS__stack__impl_8h" kind="file" language="C++">
+    <compoundname>APS_stack_impl.h</compoundname>
+    <includes refid="APS__stack_8h" local="no">tfg/APS_stack.h</includes>
+    <incdepgraph>
+      <node id="53">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="54">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="51">
+        <label>tfg/APS_stack.h</label>
+        <link refid="APS__stack_8h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>APS_stack_impl.h</label>
+        <link refid="APS_stack_impl.h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>tfg/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1tfg_1_1APS__stack__impl" prot="public">gr::tfg::APS_stack_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1tfg">gr::tfg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/lib/APS_stack_impl.h"/>
+  </compounddef>
+</doxygen>

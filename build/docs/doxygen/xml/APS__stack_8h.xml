@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="APS__stack_8h" kind="file" language="C++">
+    <compoundname>APS_stack.h</compoundname>
+    <includes refid="api_8h" local="no">tfg/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="APS__stack__impl_8h" local="no">APS_stack_impl.h</includedby>
+    <incdepgraph>
+      <node id="46">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="47">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="44">
+        <label>APS_stack.h</label>
+        <link refid="APS_stack.h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>tfg/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="48">
+        <label>APS_stack.h</label>
+        <link refid="APS_stack.h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>APS_stack_impl.h</label>
+        <link refid="APS__stack__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1tfg_1_1APS__stack" prot="public">gr::tfg::APS_stack</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1tfg">gr::tfg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/include/tfg/APS_stack.h"/>
+  </compounddef>
+</doxygen>

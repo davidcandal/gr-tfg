@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1motecontrol" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::tfg::motecontrol</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="motecontrol_8h" local="no">motecontrol.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1tfg_1_1motecontrol_1afa11cac19638347d4642cbacb666a9b1" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1tfg_1_1motecontrol" kindref="compound">motecontrol</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;motecontrol&gt; gr::tfg::motecontrol::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" line="39" column="1" bodyfile="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol_1aa5a4ffea32d99a0654b37aab9e89e235" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1tfg_1_1motecontrol_1afa11cac19638347d4642cbacb666a9b1" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::tfg::motecontrol::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1tfg_1_1motecontrol" kindref="compound">tfg::motecontrol</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1tfg_1_1motecontrol" kindref="compound">tfg::motecontrol</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1tfg_1_1motecontrol_1aa5a4ffea32d99a0654b37aab9e89e235" kindref="member">tfg::motecontrol::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol_1a581c6d124e510a93d74f30821ff9bb31" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::tfg::motecontrol::toggleRed</definition>
+        <argsstring>()=0</argsstring>
+        <name>toggleRed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol_1a095ee7fa331f469da908e43c500c0dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::tfg::motecontrol::toggleGreen</definition>
+        <argsstring>()=0</argsstring>
+        <name>toggleGreen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol_1ade4318d5c41cf9d589ae1a10c35d11ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::tfg::motecontrol::toggleYellow</definition>
+        <argsstring>()=0</argsstring>
+        <name>toggleYellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>block</label>
+      </node>
+      <node id="28">
+        <label>gr::tfg::motecontrol</label>
+        <link refid="classgr_1_1tfg_1_1motecontrol"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>block</label>
+      </node>
+      <node id="30">
+        <label>gr::tfg::motecontrol</label>
+        <link refid="classgr_1_1tfg_1_1motecontrol"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" line="37" column="1" bodyfile="/home/zigbee/gr-tfg/include/tfg/motecontrol.h" bodystart="36" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1motecontrol_1aa5a4ffea32d99a0654b37aab9e89e235" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol</scope><name>make</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol_1afa11cac19638347d4642cbacb666a9b1" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol_1a095ee7fa331f469da908e43c500c0dc3" prot="public" virt="pure-virtual"><scope>gr::tfg::motecontrol</scope><name>toggleGreen</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol_1a581c6d124e510a93d74f30821ff9bb31" prot="public" virt="pure-virtual"><scope>gr::tfg::motecontrol</scope><name>toggleRed</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol_1ade4318d5c41cf9d589ae1a10c35d11ea" prot="public" virt="pure-virtual"><scope>gr::tfg::motecontrol</scope><name>toggleYellow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="libMAC_8h" kind="file" language="C++">
+    <compoundname>libMAC.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="libNWK_8h" local="yes">libNWK.h</includedby>
+    <includedby refid="libAPS_8h" local="yes">libAPS.h</includedby>
+    <includedby refid="test__mac__impl_8h" local="yes">test_mac_impl.h</includedby>
+    <incdepgraph>
+      <node id="99">
+        <label>stdint.h</label>
+      </node>
+      <node id="98">
+        <label>vector</label>
+      </node>
+      <node id="95">
+        <label>libMAC.h</label>
+        <link refid="libMAC.h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>iostream</label>
+      </node>
+      <node id="97">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="103">
+        <label>test_aps_impl.h</label>
+        <link refid="test__aps__impl_8h"/>
+      </node>
+      <node id="101">
+        <label>libNWK.h</label>
+        <link refid="libNWK_8h"/>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>libAPS.h</label>
+        <link refid="libAPS_8h"/>
+        <childnode refid="103" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>test_nwk_impl.h</label>
+        <link refid="test__nwk__impl_8h"/>
+      </node>
+      <node id="100">
+        <label>libMAC.h</label>
+        <link refid="libMAC.h"/>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>test_mac_impl.h</label>
+        <link refid="test__mac__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1tfg_1_1libMAC" prot="public">gr::tfg::libMAC</innerclass>
+    <innerclass refid="classgr_1_1tfg_1_1libMAC_1_1FrameControl" prot="public">gr::tfg::libMAC::FrameControl</innerclass>
+    <innerclass refid="classgr_1_1tfg_1_1libMAC_1_1FieldsMAC" prot="public">gr::tfg::libMAC::FieldsMAC</innerclass>
+    <innerclass refid="classgr_1_1tfg_1_1libMAC_1_1Consts" prot="public">gr::tfg::libMAC::Consts</innerclass>
+    <innerclass refid="classgr_1_1tfg_1_1libMAC_1_1Consts_1_1FrameC__bytes" prot="public">gr::tfg::libMAC::Consts::FrameC_bytes</innerclass>
+    <innerclass refid="classgr_1_1tfg_1_1libMAC_1_1Consts_1_1FrameC" prot="public">gr::tfg::libMAC::Consts::FrameC</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1tfg">gr::tfg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/lib/libMAC.h"/>
+  </compounddef>
+</doxygen>

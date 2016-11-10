@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<block>
+  <name>Translation David &lt;-&gt; Bastibl</name>
+  <key>tfg_translation_block</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.translation_block()</make>
+  
+  <sink>
+    <name>in(david)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <sink>
+    <name>in(bastibl)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>out(david)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+  
+  <source>
+    <name>out(bastibl)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

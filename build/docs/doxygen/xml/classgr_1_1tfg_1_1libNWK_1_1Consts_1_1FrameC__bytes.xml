@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes" kind="class" language="C++" prot="public">
+    <compoundname>gr::tfg::libNWK::Consts::FrameC_bytes</compoundname>
+    <includes refid="libNWK_8h" local="no">libNWK.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a7020bf470adb306e411355343c4e6b70" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::FrameType_Data</definition>
+        <argsstring></argsstring>
+        <name>FrameType_Data</name>
+        <initializer>= 0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="126" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a0d5f683097d0869e29e41f5745cb9ee7" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::FrameType_NWKCommand</definition>
+        <argsstring></argsstring>
+        <name>FrameType_NWKCommand</name>
+        <initializer>= 0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="127" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a5799d93d822a3b6311ec9f4467500a87" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::Protocol_V1</definition>
+        <argsstring></argsstring>
+        <name>Protocol_V1</name>
+        <initializer>= 0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="128" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a066c4a998b615a215560bf8695c25efd" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::Protocol_V2</definition>
+        <argsstring></argsstring>
+        <name>Protocol_V2</name>
+        <initializer>= 0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="129" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a1e098288affe56ad867a91489abb9b05" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::DiscoverRoute_Enabled</definition>
+        <argsstring></argsstring>
+        <name>DiscoverRoute_Enabled</name>
+        <initializer>= 0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="130" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a346c797e616afa685a5caae117ce6f11" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::DiscoverRoute_Disabled</definition>
+        <argsstring></argsstring>
+        <name>DiscoverRoute_Disabled</name>
+        <initializer>= 0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="131" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a36fd5a98980272ae71021f010749701f" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::Multicast_Enabled</definition>
+        <argsstring></argsstring>
+        <name>Multicast_Enabled</name>
+        <initializer>= 0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="132" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a47218d72d16543b529ff3a864064f487" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::Multicast_Disabled</definition>
+        <argsstring></argsstring>
+        <name>Multicast_Disabled</name>
+        <initializer>= 0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="133" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1ab70848aa1668fd5531b9debc51787052" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::Security_Enabled</definition>
+        <argsstring></argsstring>
+        <name>Security_Enabled</name>
+        <initializer>= 0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="134" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a99478f75c19e917abf5af8ebe9b0b344" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::Security_Disabled</definition>
+        <argsstring></argsstring>
+        <name>Security_Disabled</name>
+        <initializer>= 0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="135" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1ad6d81dfbb13ff6a5df4236e0a9e9382e" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::SourceRoute_Enabled</definition>
+        <argsstring></argsstring>
+        <name>SourceRoute_Enabled</name>
+        <initializer>= 0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="136" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1aa1ac0724f958517a749478b87bfdbce5" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::SourceRoute_Disabled</definition>
+        <argsstring></argsstring>
+        <name>SourceRoute_Disabled</name>
+        <initializer>= 0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="137" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a08c1175be41554b4883efbf53b543ca7" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::DestIEEE_Enabled</definition>
+        <argsstring></argsstring>
+        <name>DestIEEE_Enabled</name>
+        <initializer>= 0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="138" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a8c67aa79f652e30c2c1e34698e667cb9" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::DestIEEE_Disabled</definition>
+        <argsstring></argsstring>
+        <name>DestIEEE_Disabled</name>
+        <initializer>= 0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="139" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a92120373891c719094fb188827a256bb" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::SrcIEEE_Enabled</definition>
+        <argsstring></argsstring>
+        <name>SrcIEEE_Enabled</name>
+        <initializer>= 0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="140" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a32f77126151250517182e6f933f44c1c" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tfg::libNWK::Consts::FrameC_bytes::SrcIEEE_Disabled</definition>
+        <argsstring></argsstring>
+        <name>SrcIEEE_Disabled</name>
+        <initializer>= 0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="141" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="124" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="124" bodyend="142"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a8c67aa79f652e30c2c1e34698e667cb9" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>DestIEEE_Disabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a08c1175be41554b4883efbf53b543ca7" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>DestIEEE_Enabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a346c797e616afa685a5caae117ce6f11" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>DiscoverRoute_Disabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a1e098288affe56ad867a91489abb9b05" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>DiscoverRoute_Enabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a7020bf470adb306e411355343c4e6b70" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>FrameType_Data</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a0d5f683097d0869e29e41f5745cb9ee7" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>FrameType_NWKCommand</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a47218d72d16543b529ff3a864064f487" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>Multicast_Disabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a36fd5a98980272ae71021f010749701f" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>Multicast_Enabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a5799d93d822a3b6311ec9f4467500a87" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>Protocol_V1</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a066c4a998b615a215560bf8695c25efd" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>Protocol_V2</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a99478f75c19e917abf5af8ebe9b0b344" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>Security_Disabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1ab70848aa1668fd5531b9debc51787052" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>Security_Enabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1aa1ac0724f958517a749478b87bfdbce5" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>SourceRoute_Disabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1ad6d81dfbb13ff6a5df4236e0a9e9382e" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>SourceRoute_Enabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a32f77126151250517182e6f933f44c1c" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>SrcIEEE_Disabled</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1Consts_1_1FrameC__bytes_1a92120373891c719094fb188827a256bb" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::Consts::FrameC_bytes</scope><name>SrcIEEE_Enabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

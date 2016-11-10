@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_bef5afcfb2754b5ec8ac6b41f49b22cb" kind="dir">
+    <compoundname>tfg</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="Aplication_8h">Aplication.h</innerfile>
+    <innerfile refid="APS__stack_8h">APS_stack.h</innerfile>
+    <innerfile refid="imprimir__bytes_8h">imprimir_bytes.h</innerfile>
+    <innerfile refid="imprimir__mensajes_8h">imprimir_mensajes.h</innerfile>
+    <innerfile refid="mac_8h">mac.h</innerfile>
+    <innerfile refid="MAC__stack_8h">MAC_stack.h</innerfile>
+    <innerfile refid="mensaje__a__mayusculas_8h">mensaje_a_mayusculas.h</innerfile>
+    <innerfile refid="motecontrol_8h">motecontrol.h</innerfile>
+    <innerfile refid="NWK__stack_8h">NWK_stack.h</innerfile>
+    <innerfile refid="repetidor__caracteres_8h">repetidor_caracteres.h</innerfile>
+    <innerfile refid="test__aps_8h">test_aps.h</innerfile>
+    <innerfile refid="test__mac_8h">test_mac.h</innerfile>
+    <innerfile refid="test__nwk_8h">test_nwk.h</innerfile>
+    <innerfile refid="translation__block_8h">translation_block.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/include/tfg/"/>
+  </compounddef>
+</doxygen>

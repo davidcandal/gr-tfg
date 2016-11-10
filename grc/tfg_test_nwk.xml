@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<block>
+  <name>Test de la capa NWK</name>
+  <key>tfg_test_nwk</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.test_nwk()</make>
+  
+  <sink>
+    <name>entrada</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>salida</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

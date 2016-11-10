@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1MAC__stack__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tfg::MAC_stack_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tfg_1_1MAC__stack" prot="public" virt="non-virtual">gr::tfg::MAC_stack</basecompoundref>
+    <includes refid="MAC__stack__impl_8h" local="no">MAC_stack_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1MAC__stack__impl_1adfd748caf67cfcfbbdeff3f86dc1928d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tfg::MAC_stack_impl::sequenceNumber</definition>
+        <argsstring></argsstring>
+        <name>sequenceNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="17" column="1" bodyfile="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1MAC__stack__impl_1a636567c44631dafec0423d2bdc4d6b71" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tfg::MAC_stack_impl::packet_errors</definition>
+        <argsstring></argsstring>
+        <name>packet_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="18" column="1" bodyfile="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1MAC__stack__impl_1ab2d9159d5762309a374b617331ae550c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tfg::MAC_stack_impl::packets_received</definition>
+        <argsstring></argsstring>
+        <name>packets_received</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="19" column="1" bodyfile="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1MAC__stack__impl_1a310ee263cd0b46b925bfd7608284d0af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::MAC_stack_impl::MAC_stack_impl</definition>
+        <argsstring>(bool debugInput, bool debugOutput)</argsstring>
+        <name>MAC_stack_impl</name>
+        <param>
+          <type>bool</type>
+          <declname>debugInput</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debugOutput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1MAC__stack__impl_1a11554c83419599ecceab13e9a7ee6523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::MAC_stack_impl::~MAC_stack_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~MAC_stack_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1MAC__stack__impl_1a74dbfac1d157b7c6994c68de0a1f2713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::MAC_stack_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1MAC__stack__impl_1a4f965c2de6901c90c9885115ef8d5709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tfg::MAC_stack_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1MAC__stack__impl_1a392e190f48eec2aab81ce58f3fdc2379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::MAC_stack_impl::msg_from_PHY</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_from_PHY</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1MAC__stack__impl_1a92a822100509ea2a6c0dd4b5638e7e44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::MAC_stack_impl::msg_from_NWK</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_from_NWK</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="30" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="103">
+        <label>gr::tfg::MAC_stack_impl</label>
+        <link refid="classgr_1_1tfg_1_1MAC__stack__impl"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>block</label>
+      </node>
+      <node id="104">
+        <label>gr::tfg::MAC_stack</label>
+        <link refid="classgr_1_1tfg_1_1MAC__stack"/>
+        <childnode refid="105" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="106">
+        <label>gr::tfg::MAC_stack_impl</label>
+        <link refid="classgr_1_1tfg_1_1MAC__stack__impl"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>block</label>
+      </node>
+      <node id="107">
+        <label>gr::tfg::MAC_stack</label>
+        <link refid="classgr_1_1tfg_1_1MAC__stack"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" line="12" column="1" bodyfile="/home/zigbee/gr-tfg/lib/MAC_stack_impl.h" bodystart="12" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1a74dbfac1d157b7c6994c68de0a1f2713" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1a4f965c2de6901c90c9885115ef8d5709" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1a310ee263cd0b46b925bfd7608284d0af" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>MAC_stack_impl</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack_1a718682f2c936f6aff1f85251ddd59c88" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1a92a822100509ea2a6c0dd4b5638e7e44" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>msg_from_NWK</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1a392e190f48eec2aab81ce58f3fdc2379" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>msg_from_PHY</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1a636567c44631dafec0423d2bdc4d6b71" prot="private" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>packet_errors</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1ab2d9159d5762309a374b617331ae550c" prot="private" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>packets_received</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1adfd748caf67cfcfbbdeff3f86dc1928d" prot="private" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>sequenceNumber</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack_1a06f2449a967b3b56d6005dc91ac73c96" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tfg_1_1MAC__stack__impl_1a11554c83419599ecceab13e9a7ee6523" prot="public" virt="non-virtual"><scope>gr::tfg::MAC_stack_impl</scope><name>~MAC_stack_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK" kind="class" language="C++" prot="public">
+    <compoundname>gr::tfg::libNWK::FieldsNWK</compoundname>
+    <includes refid="libNWK_8h" local="no">libNWK.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a84ff30f6d8e21eea75dcafbb8277f6b1" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr_1_1tfg_1_1libNWK_1_1FrameControl" kindref="compound">FrameControl</ref></type>
+        <definition>FrameControl gr::tfg::libNWK::FieldsNWK::framecontrol</definition>
+        <argsstring></argsstring>
+        <name>framecontrol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="54" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a60aec9f33b84775f4e6cd9db8df6a21f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::tfg::libNWK::FieldsNWK::destinationAdd</definition>
+        <argsstring></argsstring>
+        <name>destinationAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="55" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aa881398a6d5b786c04d06b33e14e3609" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::tfg::libNWK::FieldsNWK::sourceAdd</definition>
+        <argsstring></argsstring>
+        <name>sourceAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="56" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a44fa314e253ed4b3b6c07f05b6333e59" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::tfg::libNWK::FieldsNWK::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="57" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a59a864f7999760687347c26cc75d243b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::tfg::libNWK::FieldsNWK::sequenceNumber</definition>
+        <argsstring></argsstring>
+        <name>sequenceNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="58" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ad461a1f46974c553e53440c45297c75f" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tfg::libNWK::FieldsNWK::destinationIEEE</definition>
+        <argsstring></argsstring>
+        <name>destinationIEEE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="59" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a95bc75134969e8e4bd89c500e526cea9" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::tfg::libNWK::FieldsNWK::sourceIEEE</definition>
+        <argsstring></argsstring>
+        <name>sourceIEEE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="60" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a31be7de8ea512c3297c24ca603c58f8f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::tfg::libNWK::FieldsNWK::multicastMember</definition>
+        <argsstring></argsstring>
+        <name>multicastMember</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="61" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a038615fd075f2b27211753514bfe1e79" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tfg::libNWK::FieldsNWK::multicastRadius</definition>
+        <argsstring></argsstring>
+        <name>multicastRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="62" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ac18a05d0543ab0331c902965debc7ae3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tfg::libNWK::FieldsNWK::multicastMaxRadius</definition>
+        <argsstring></argsstring>
+        <name>multicastMaxRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="63" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a01dd9a95a26492285baf7154304e2f8a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::tfg::libNWK::FieldsNWK::countSourceRoute</definition>
+        <argsstring></argsstring>
+        <name>countSourceRoute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="64" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a15ff103d07c27debefbb52bd78de2b64" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t gr::tfg::libNWK::FieldsNWK::indexSourceRoute</definition>
+        <argsstring></argsstring>
+        <name>indexSourceRoute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="65" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a501de13cbbbdf877a8399986d028f7a0" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint16_t &gt;</type>
+        <definition>std::vector&lt;uint16_t&gt; gr::tfg::libNWK::FieldsNWK::listSourceRoute</definition>
+        <argsstring></argsstring>
+        <name>listSourceRoute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="66" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a1a55f2d946a6e03863efffb78e2301ce" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr::tfg::libNWK::FieldsNWK::payload</definition>
+        <argsstring></argsstring>
+        <name>payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="67" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a5e658dbe6a04f4ca565450309717d079" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr_1_1tfg_1_1libMAC_1_1FieldsMAC" kindref="compound">libMAC::FieldsMAC</ref></type>
+        <definition>libMAC::FieldsMAC gr::tfg::libNWK::FieldsNWK::fieldsMAC</definition>
+        <argsstring></argsstring>
+        <name>fieldsMAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="68" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aa3a4554de13aefe320f8947bad247157" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::tfg::libNWK::FieldsNWK::isNWK</definition>
+        <argsstring></argsstring>
+        <name>isNWK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="69" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a3f49574166b3f42a0da9d7d75b789376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::libNWK::FieldsNWK::FieldsNWK</definition>
+        <argsstring>()</argsstring>
+        <name>FieldsNWK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a90fcd2e59157302eb30f59914d5175e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::libNWK::FieldsNWK::FieldsNWK</definition>
+        <argsstring>(FrameControl framecontrol, uint16_t destinationAdd, uint8_t radius, std::vector&lt; uint8_t &gt; payload, libMAC::FieldsMAC fieldsMAC)</argsstring>
+        <name>FieldsNWK</name>
+        <param>
+          <type><ref refid="classgr_1_1tfg_1_1libNWK_1_1FrameControl" kindref="compound">FrameControl</ref></type>
+          <declname>framecontrol</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>destinationAdd</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type><ref refid="classgr_1_1tfg_1_1libMAC_1_1FieldsMAC" kindref="compound">libMAC::FieldsMAC</ref></type>
+          <declname>fieldsMAC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ae1dfb5b25db965bb08f2845bcbab9794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::libNWK::FieldsNWK::FieldsNWK</definition>
+        <argsstring>(FrameControl framecontrol, uint16_t destinationAdd, uint16_t sourceAdd, uint8_t radius, uint8_t sequenceNumber, uint64_t destinationIEEE, uint64_t sourceIEEE, bool multicastMember, int multicastRadius, int multicastMaxRadius, uint8_t countSourceRoute, uint8_t indexSourceRoute, std::vector&lt; uint16_t &gt; listSourceRoute, std::vector&lt; uint8_t &gt; payload, libMAC::FieldsMAC fieldsMAC)</argsstring>
+        <name>FieldsNWK</name>
+        <param>
+          <type><ref refid="classgr_1_1tfg_1_1libNWK_1_1FrameControl" kindref="compound">FrameControl</ref></type>
+          <declname>framecontrol</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>destinationAdd</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>sourceAdd</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>sequenceNumber</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>destinationIEEE</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>sourceIEEE</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>multicastMember</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>multicastRadius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>multicastMaxRadius</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>countSourceRoute</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>indexSourceRoute</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint16_t &gt;</type>
+          <declname>listSourceRoute</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type><ref refid="classgr_1_1tfg_1_1libMAC_1_1FieldsMAC" kindref="compound">libMAC::FieldsMAC</ref></type>
+          <declname>fieldsMAC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a95ca0ab627d0d284864bbb94079a92e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setFrameControl</definition>
+        <argsstring>(FrameControl framecontrol)</argsstring>
+        <name>setFrameControl</name>
+        <param>
+          <type><ref refid="classgr_1_1tfg_1_1libNWK_1_1FrameControl" kindref="compound">FrameControl</ref></type>
+          <declname>framecontrol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a567ed4de3e1af4788a5aec9d42b8991e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setDestinationAdd</definition>
+        <argsstring>(uint16_t destinationAdd)</argsstring>
+        <name>setDestinationAdd</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>destinationAdd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a148aa0481afc63d468c5aa4ef441fa15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setSourceAdd</definition>
+        <argsstring>(uint16_t sourceAdd)</argsstring>
+        <name>setSourceAdd</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>sourceAdd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aba3bd9df550980fc7c02b5ea647960df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setRadius</definition>
+        <argsstring>(uint8_t radius)</argsstring>
+        <name>setRadius</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ab066cf33aaab50708b199e31d65eca54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setSequenceNumber</definition>
+        <argsstring>(uint8_t sequenceNumber)</argsstring>
+        <name>setSequenceNumber</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>sequenceNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ab25b25cc981bfb50337e7075e495e8eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setDestinationIEEE</definition>
+        <argsstring>(uint64_t destinationIEEE)</argsstring>
+        <name>setDestinationIEEE</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>destinationIEEE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a126444d889dc9bf1b5dc72a7165bdf20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setSourceIEEE</definition>
+        <argsstring>(uint64_t sourceIEEE)</argsstring>
+        <name>setSourceIEEE</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>sourceIEEE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aad5facd58137a1dbacc38222cab8d5a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setMulticast</definition>
+        <argsstring>(bool multicastMember, int multicastRadius, int multicastMaxRadius)</argsstring>
+        <name>setMulticast</name>
+        <param>
+          <type>bool</type>
+          <declname>multicastMember</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>multicastRadius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>multicastMaxRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ab7a99f52c16f16e238a809a62a1b32ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setSourceRoute</definition>
+        <argsstring>(uint8_t countSourceRoute, uint8_t indexSourceRoute, std::vector&lt; uint16_t &gt; listSourceRoute)</argsstring>
+        <name>setSourceRoute</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>countSourceRoute</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>indexSourceRoute</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; uint16_t &gt;</type>
+          <declname>listSourceRoute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aa504bf91b124385115336afc68fb65fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setPayload</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt; payload)</argsstring>
+        <name>setPayload</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a1e5221916e3a8c2db56aaad853c84ff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::setFieldsMAC</definition>
+        <argsstring>(libMAC::FieldsMAC fieldsMAC)</argsstring>
+        <name>setFieldsMAC</name>
+        <param>
+          <type><ref refid="classgr_1_1tfg_1_1libMAC_1_1FieldsMAC" kindref="compound">libMAC::FieldsMAC</ref></type>
+          <declname>fieldsMAC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1af9a92cd325a91c2b7655dd422a1b0f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr::tfg::libNWK::FieldsNWK::toBytes</definition>
+        <argsstring>()</argsstring>
+        <name>toBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a9bb4cb0f4c751c7c1b3c785b6677ff93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::fromBytes</definition>
+        <argsstring>(std::vector&lt; uint8_t &gt;)</argsstring>
+        <name>fromBytes</name>
+        <param>
+          <type>std::vector&lt; uint8_t &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a71a6103d300501a56c9e61d6b3b5e73c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::printNWKFields</definition>
+        <argsstring>()</argsstring>
+        <name>printNWKFields</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ac35c307c4e58774af0ada9798f3bcdb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::libNWK::FieldsNWK::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a3cfbf37a7b4413c4b027a01b12220788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1tfg_1_1libMAC_1_1FieldsMAC" kindref="compound">libMAC::FieldsMAC</ref></type>
+        <definition>libMAC::FieldsMAC gr::tfg::libNWK::FieldsNWK::toMAC</definition>
+        <argsstring>()</argsstring>
+        <name>toMAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="114" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="47">
+        <label>gr::tfg::libNWK::FrameControl</label>
+        <link refid="classgr_1_1tfg_1_1libNWK_1_1FrameControl"/>
+      </node>
+      <node id="43">
+        <label>std::vector&lt; uint16_t &gt;</label>
+      </node>
+      <node id="42">
+        <label>gr::tfg::libNWK::FieldsNWK</label>
+        <link refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK"/>
+        <childnode refid="43" relation="usage">
+          <edgelabel>listSourceRoute</edgelabel>
+        </childnode>
+        <childnode refid="44" relation="usage">
+          <edgelabel>payload</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>fieldsMAC</edgelabel>
+        </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>framecontrol</edgelabel>
+        </childnode>
+      </node>
+      <node id="45">
+        <label>gr::tfg::libMAC::FieldsMAC</label>
+        <link refid="classgr_1_1tfg_1_1libMAC_1_1FieldsMAC"/>
+        <childnode refid="44" relation="usage">
+          <edgelabel>payload</edgelabel>
+        </childnode>
+        <childnode refid="46" relation="usage">
+          <edgelabel>framecontrol</edgelabel>
+        </childnode>
+      </node>
+      <node id="46">
+        <label>gr::tfg::libMAC::FrameControl</label>
+        <link refid="classgr_1_1tfg_1_1libMAC_1_1FrameControl"/>
+      </node>
+      <node id="44">
+        <label>std::vector&lt; uint8_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zigbee/gr-tfg/lib/libNWK.h" line="50" column="1" bodyfile="/home/zigbee/gr-tfg/lib/libNWK.h" bodystart="50" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a01dd9a95a26492285baf7154304e2f8a" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>countSourceRoute</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a60aec9f33b84775f4e6cd9db8df6a21f" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>destinationAdd</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ad461a1f46974c553e53440c45297c75f" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>destinationIEEE</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a5e658dbe6a04f4ca565450309717d079" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>fieldsMAC</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a3f49574166b3f42a0da9d7d75b789376" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>FieldsNWK</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a90fcd2e59157302eb30f59914d5175e0" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>FieldsNWK</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ae1dfb5b25db965bb08f2845bcbab9794" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>FieldsNWK</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a84ff30f6d8e21eea75dcafbb8277f6b1" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>framecontrol</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a9bb4cb0f4c751c7c1b3c785b6677ff93" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>fromBytes</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a15ff103d07c27debefbb52bd78de2b64" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>indexSourceRoute</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aa3a4554de13aefe320f8947bad247157" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>isNWK</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a501de13cbbbdf877a8399986d028f7a0" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>listSourceRoute</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ac18a05d0543ab0331c902965debc7ae3" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>multicastMaxRadius</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a31be7de8ea512c3297c24ca603c58f8f" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>multicastMember</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a038615fd075f2b27211753514bfe1e79" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>multicastRadius</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a1a55f2d946a6e03863efffb78e2301ce" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>payload</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a71a6103d300501a56c9e61d6b3b5e73c" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>printNWKFields</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a44fa314e253ed4b3b6c07f05b6333e59" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>radius</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ac35c307c4e58774af0ada9798f3bcdb5" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>reset</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a59a864f7999760687347c26cc75d243b" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>sequenceNumber</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a567ed4de3e1af4788a5aec9d42b8991e" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setDestinationAdd</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ab25b25cc981bfb50337e7075e495e8eb" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setDestinationIEEE</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a1e5221916e3a8c2db56aaad853c84ff7" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setFieldsMAC</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a95ca0ab627d0d284864bbb94079a92e2" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setFrameControl</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aad5facd58137a1dbacc38222cab8d5a3" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setMulticast</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aa504bf91b124385115336afc68fb65fa" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setPayload</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aba3bd9df550980fc7c02b5ea647960df" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setRadius</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ab066cf33aaab50708b199e31d65eca54" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setSequenceNumber</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a148aa0481afc63d468c5aa4ef441fa15" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setSourceAdd</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a126444d889dc9bf1b5dc72a7165bdf20" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setSourceIEEE</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1ab7a99f52c16f16e238a809a62a1b32ac" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>setSourceRoute</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1aa881398a6d5b786c04d06b33e14e3609" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>sourceAdd</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a95bc75134969e8e4bd89c500e526cea9" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>sourceIEEE</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1af9a92cd325a91c2b7655dd422a1b0f89" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>toBytes</name></member>
+      <member refid="classgr_1_1tfg_1_1libNWK_1_1FieldsNWK_1a3cfbf37a7b4413c4b027a01b12220788" prot="public" virt="non-virtual"><scope>gr::tfg::libNWK::FieldsNWK</scope><name>toMAC</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

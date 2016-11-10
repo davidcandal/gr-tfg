@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<block>
+  <name>NWK Stack</name>
+  <key>tfg_NWK_stack</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.NWK_stack($debugInput, $debugOutput)</make>
+
+  <param>
+    <name>Debug Input</name>
+    <key>debugInput</key>
+    <value>False</value>
+    <type>bool</type>
+    <option>
+        <name>Enable</name>
+            <key>True</key>
+    </option>
+    <option>
+        <name>Disable</name>
+            <key>False</key>
+    </option>
+  </param>
+  
+  <param>
+    <name>Debug Output</name>
+    <key>debugOutput</key>
+    <value>False</value>
+    <type>bool</type>
+    <option>
+        <name>Enable</name>
+            <key>True</key>
+    </option>
+    <option>
+        <name>Disable</name>
+            <key>False</key>
+    </option>
+  </param>
+  
+  <sink>
+    <name>in(APS)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <sink>
+    <name>in(MAC)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>out(MAC)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+  
+  <source>
+    <name>out(APS)</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

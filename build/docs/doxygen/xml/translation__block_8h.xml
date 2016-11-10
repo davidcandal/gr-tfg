@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="translation__block_8h" kind="file" language="C++">
+    <compoundname>translation_block.h</compoundname>
+    <includes refid="api_8h" local="no">tfg/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="translation__block__impl_8h" local="no">translation_block_impl.h</includedby>
+    <incdepgraph>
+      <node id="240">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="241">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="238">
+        <label>translation_block.h</label>
+        <link refid="translation_block.h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>tfg/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="240" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="243">
+        <label>translation_block_impl.h</label>
+        <link refid="translation__block__impl_8h"/>
+      </node>
+      <node id="242">
+        <label>translation_block.h</label>
+        <link refid="translation_block.h"/>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1tfg_1_1translation__block" prot="public">gr::tfg::translation_block</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1tfg">gr::tfg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/include/tfg/translation_block.h"/>
+  </compounddef>
+</doxygen>

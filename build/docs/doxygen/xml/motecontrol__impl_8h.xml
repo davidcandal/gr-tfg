@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="motecontrol__impl_8h" kind="file" language="C++">
+    <compoundname>motecontrol_impl.h</compoundname>
+    <includes refid="motecontrol_8h" local="no">tfg/motecontrol.h</includes>
+    <includes local="no">string.h</includes>
+    <incdepgraph>
+      <node id="156">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="158">
+        <label>string.h</label>
+      </node>
+      <node id="157">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="154">
+        <label>tfg/motecontrol.h</label>
+        <link refid="motecontrol_8h"/>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>motecontrol_impl.h</label>
+        <link refid="motecontrol_impl.h"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>tfg/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1tfg_1_1motecontrol__impl" prot="public">gr::tfg::motecontrol_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1tfg">gr::tfg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h"/>
+  </compounddef>
+</doxygen>

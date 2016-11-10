@@ -1,0 +1,15 @@
+#!/bin/bash
+sudo rm -R build
+mkdir build
+cd build
+echo $'*********CMAKE*************\n\n\n\n\n'
+cmake ..
+echo $'**********MAKE*************\n\n\n\n\n'
+make -j8
+echo $'*********INSTALL***********\n\n\n\n\n'
+sudo make install
+echo $'*********LDCONFIG**********\n\n\n\n\n'
+sudo ldconfig
+cd ..
+#sudo gnuradio-companion
+exit

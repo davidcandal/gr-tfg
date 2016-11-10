@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="Aplication__impl_8h">Aplication_impl.h</innerfile>
+    <innerfile refid="APS__stack__impl_8h">APS_stack_impl.h</innerfile>
+    <innerfile refid="bytes_8h">bytes.h</innerfile>
+    <innerfile refid="imprimir__bytes__impl_8h">imprimir_bytes_impl.h</innerfile>
+    <innerfile refid="imprimir__mensajes__impl_8h">imprimir_mensajes_impl.h</innerfile>
+    <innerfile refid="libAPS_8h">libAPS.h</innerfile>
+    <innerfile refid="libMAC_8h">libMAC.h</innerfile>
+    <innerfile refid="libNWK_8h">libNWK.h</innerfile>
+    <innerfile refid="MAC__stack__impl_8h">MAC_stack_impl.h</innerfile>
+    <innerfile refid="mensaje__a__mayusculas__impl_8h">mensaje_a_mayusculas_impl.h</innerfile>
+    <innerfile refid="motecontrol__impl_8h">motecontrol_impl.h</innerfile>
+    <innerfile refid="NWK__stack__impl_8h">NWK_stack_impl.h</innerfile>
+    <innerfile refid="repetidor__caracteres__impl_8h">repetidor_caracteres_impl.h</innerfile>
+    <innerfile refid="test__aps__impl_8h">test_aps_impl.h</innerfile>
+    <innerfile refid="test__mac__impl_8h">test_mac_impl.h</innerfile>
+    <innerfile refid="test__nwk__impl_8h">test_nwk_impl.h</innerfile>
+    <innerfile refid="translation__block__impl_8h">translation_block_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/lib/"/>
+  </compounddef>
+</doxygen>

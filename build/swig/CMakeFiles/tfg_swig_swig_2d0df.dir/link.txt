@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/tfg_swig_swig_2d0df.dir/tfg_swig_swig_2d0df.cpp.o  -o tfg_swig_swig_2d0df -rdynamic 

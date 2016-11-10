@@ -1,0 +1,10 @@
+#!/bin/bash
+cd build
+echo $'\n\n\n\n\n**********MAKE*************'
+make -j8
+echo $'\n\n\n\n\n*********INSTALL***********'
+sudo make install
+echo $'\n\n\n\n\n*********LDCONFIG**********'
+sudo ldconfig
+cd ..
+exit

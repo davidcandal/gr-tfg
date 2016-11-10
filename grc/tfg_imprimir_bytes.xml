@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<block>
+  <name>Imprimir Bytes</name>
+  <key>tfg_imprimir_bytes</key>
+  <category>[TFG]</category>
+  <import>import tfg</import>
+  <make>tfg.imprimir_bytes()</make>
+  
+  <sink>
+    <name>entrada</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+</block>

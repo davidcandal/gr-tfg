@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1test__aps__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tfg::test_aps_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tfg_1_1test__aps" prot="public" virt="non-virtual">gr::tfg::test_aps</basecompoundref>
+    <includes refid="test__aps__impl_8h" local="no">test_aps_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1test__aps__impl_1ade2aab9f5b0b6c616390411fe94a48c3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::tfg::test_aps_impl::hecho</definition>
+        <argsstring></argsstring>
+        <name>hecho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/test_aps_impl.h" line="17" column="1" bodyfile="/home/zigbee/gr-tfg/lib/test_aps_impl.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1test__aps__impl_1a916d51b21b5c863c207ee44228bc073a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::test_aps_impl::msg_handler</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_handler</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/test_aps_impl.h" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1test__aps__impl_1ac442fd52bdd4d74652d4c76d467d15df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::test_aps_impl::test_aps_impl</definition>
+        <argsstring>()</argsstring>
+        <name>test_aps_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/test_aps_impl.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1test__aps__impl_1ae6284de93a2acb5c5e4fcab715677916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::test_aps_impl::~test_aps_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~test_aps_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/test_aps_impl.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1test__aps__impl_1adaa8481680b755c9b218de5c835dbc82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::test_aps_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/test_aps_impl.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1test__aps__impl_1a21ee8d79bcf71ee5fa1040a8932c7a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tfg::test_aps_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/test_aps_impl.h" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="158">
+        <label>gr::tfg::test_aps_impl</label>
+        <link refid="classgr_1_1tfg_1_1test__aps__impl"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>gr::tfg::test_aps</label>
+        <link refid="classgr_1_1tfg_1_1test__aps"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="161">
+        <label>gr::tfg::test_aps_impl</label>
+        <link refid="classgr_1_1tfg_1_1test__aps__impl"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>gr::tfg::test_aps</label>
+        <link refid="classgr_1_1tfg_1_1test__aps"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zigbee/gr-tfg/lib/test_aps_impl.h" line="13" column="1" bodyfile="/home/zigbee/gr-tfg/lib/test_aps_impl.h" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1test__aps__impl_1adaa8481680b755c9b218de5c835dbc82" prot="public" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1tfg_1_1test__aps__impl_1a21ee8d79bcf71ee5fa1040a8932c7a9c" prot="public" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1tfg_1_1test__aps__impl_1ade2aab9f5b0b6c616390411fe94a48c3" prot="private" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>hecho</name></member>
+      <member refid="classgr_1_1tfg_1_1test__aps_1a1d50e560e127eddf5fabdede4b70c885" prot="public" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tfg_1_1test__aps__impl_1a916d51b21b5c863c207ee44228bc073a" prot="private" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>msg_handler</name></member>
+      <member refid="classgr_1_1tfg_1_1test__aps_1af2478ddf1729c8d780abab154e8fbe1c" prot="public" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tfg_1_1test__aps__impl_1ac442fd52bdd4d74652d4c76d467d15df" prot="public" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>test_aps_impl</name></member>
+      <member refid="classgr_1_1tfg_1_1test__aps__impl_1ae6284de93a2acb5c5e4fcab715677916" prot="public" virt="non-virtual"><scope>gr::tfg::test_aps_impl</scope><name>~test_aps_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

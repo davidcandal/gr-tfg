@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<block>
+  <name>Repetidor de caracteres</name>
+  <key>tfg_repetidor_caracteres</key>
+  <category>[David]</category>
+  <import>import tfg</import>
+  <make>tfg.repetidor_caracteres($repeticiones)</make>
+
+  <param>
+    <name>Repeticiones</name>
+    <key>repeticiones</key>
+    <type>int</type>
+  </param>
+  
+  <sink>
+    <name>entrada</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>salida</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<block>
+  <name>Impresor de mensajes</name>
+  <key>tfg_imprimir_mensajes</key>
+  <category>[David]</category>
+  <import>import tfg</import>
+  <make>tfg.imprimir_mensajes()</make>
+  
+  <sink>
+    <name>entrada</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+</block>

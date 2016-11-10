@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="Aplication_8h" local="no">Aplication.h</includedby>
+    <includedby refid="APS__stack_8h" local="no">APS_stack.h</includedby>
+    <includedby refid="imprimir__bytes_8h" local="no">imprimir_bytes.h</includedby>
+    <includedby refid="imprimir__mensajes_8h" local="no">imprimir_mensajes.h</includedby>
+    <includedby refid="mac_8h" local="no">mac.h</includedby>
+    <includedby refid="MAC__stack_8h" local="no">MAC_stack.h</includedby>
+    <includedby refid="mensaje__a__mayusculas_8h" local="no">mensaje_a_mayusculas.h</includedby>
+    <includedby refid="motecontrol_8h" local="no">motecontrol.h</includedby>
+    <includedby refid="NWK__stack_8h" local="no">NWK_stack.h</includedby>
+    <includedby refid="repetidor__caracteres_8h" local="no">repetidor_caracteres.h</includedby>
+    <includedby refid="test__aps_8h" local="no">test_aps.h</includedby>
+    <includedby refid="test__mac_8h" local="no">test_mac.h</includedby>
+    <includedby refid="test__nwk_8h" local="no">test_nwk.h</includedby>
+    <includedby refid="translation__block_8h" local="no">translation_block.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="0">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="29">
+        <label>translation_block_impl.h</label>
+        <link refid="translation__block__impl_8h"/>
+      </node>
+      <node id="21">
+        <label>repetidor_caracteres_impl.h</label>
+        <link refid="repetidor__caracteres__impl_8h"/>
+      </node>
+      <node id="11">
+        <label>mac.h</label>
+        <link refid="mac_8h"/>
+      </node>
+      <node id="14">
+        <label>mensaje_a_mayusculas.h</label>
+        <link refid="mensaje__a__mayusculas_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>test_nwk.h</label>
+        <link refid="test__nwk_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>test_aps_impl.h</label>
+        <link refid="test__aps__impl_8h"/>
+      </node>
+      <node id="7">
+        <label>imprimir_bytes.h</label>
+        <link refid="imprimir__bytes_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>imprimir_bytes_impl.h</label>
+        <link refid="imprimir__bytes__impl_8h"/>
+      </node>
+      <node id="3">
+        <label>Aplication.h</label>
+        <link refid="Aplication_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>test_nwk_impl.h</label>
+        <link refid="test__nwk__impl_8h"/>
+      </node>
+      <node id="24">
+        <label>test_mac.h</label>
+        <link refid="test__mac_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>NWK_stack.h</label>
+        <link refid="NWK__stack_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>mensaje_a_mayusculas_impl.h</label>
+        <link refid="mensaje__a__mayusculas__impl_8h"/>
+      </node>
+      <node id="20">
+        <label>repetidor_caracteres.h</label>
+        <link refid="repetidor__caracteres_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>translation_block.h</label>
+        <link refid="translation__block_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>motecontrol.h</label>
+        <link refid="motecontrol_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Aplication_impl.h</label>
+        <link refid="Aplication__impl_8h"/>
+      </node>
+      <node id="12">
+        <label>MAC_stack.h</label>
+        <link refid="MAC__stack_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>APS_stack.h</label>
+        <link refid="APS__stack_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>test_aps.h</label>
+        <link refid="test__aps_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>motecontrol_impl.h</label>
+        <link refid="motecontrol__impl_8h"/>
+      </node>
+      <node id="10">
+        <label>imprimir_mensajes_impl.h</label>
+        <link refid="imprimir__mensajes__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>imprimir_mensajes.h</label>
+        <link refid="imprimir__mensajes_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MAC_stack_impl.h</label>
+        <link refid="MAC__stack__impl_8h"/>
+      </node>
+      <node id="19">
+        <label>NWK_stack_impl.h</label>
+        <link refid="NWK__stack__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>APS_stack_impl.h</label>
+        <link refid="APS__stack__impl_8h"/>
+      </node>
+      <node id="25">
+        <label>test_mac_impl.h</label>
+        <link refid="test__mac__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a4cdce161cf94945c63fc71f3f4b75ea4" prot="public" static="no">
+        <name>TFG_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/include/tfg/api.h" line="30" column="12" bodyfile="/home/zigbee/gr-tfg/include/tfg/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zigbee/gr-tfg/include/tfg/api.h"/>
+  </compounddef>
+</doxygen>

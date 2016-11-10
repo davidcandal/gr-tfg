@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1motecontrol__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tfg::motecontrol_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tfg_1_1motecontrol" prot="public" virt="non-virtual">gr::tfg::motecontrol</basecompoundref>
+    <includes refid="motecontrol__impl_8h" local="no">motecontrol_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1motecontrol__impl_1ac22f1e013d6f2af1ac106b8be24d09fe" prot="private" static="no" mutable="no">
+        <type>std::map&lt; uint64_t, int &gt;</type>
+        <definition>std::map&lt;uint64_t, int&gt; gr::tfg::motecontrol_impl::moteStates</definition>
+        <argsstring></argsstring>
+        <name>moteStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="18" column="1" bodyfile="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1motecontrol__impl_1a08de96e8d4c8891eb886a03261d88a0c" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::tfg::motecontrol_impl::nextAdd</definition>
+        <argsstring></argsstring>
+        <name>nextAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="19" column="1" bodyfile="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1motecontrol__impl_1a4187e6ce612f7b0137e538cd3754495d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr::tfg::motecontrol_impl::pendingShort</definition>
+        <argsstring></argsstring>
+        <name>pendingShort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="20" column="1" bodyfile="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1motecontrol__impl_1a3c852155d54b8fba15406f8cdfdcb791" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint64_t &gt;</type>
+        <definition>std::vector&lt;uint64_t&gt; gr::tfg::motecontrol_impl::pendingLong</definition>
+        <argsstring></argsstring>
+        <name>pendingLong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="21" column="1" bodyfile="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1a295354754bc26e9d8e60ab715fb2b1ce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::motecontrol_impl::msg_handler</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_handler</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1a6692eb257c54787f06f0c1867c13f212" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::motecontrol_impl::sendBeacon</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>sendBeacon</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1a1f5fb8ae8f1fbbd921cc0869e58264d1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; uint8_t &gt;</type>
+        <definition>std::vector&lt;uint8_t&gt; gr::tfg::motecontrol_impl::pending</definition>
+        <argsstring>()</argsstring>
+        <name>pending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1ac7ca28258a31fa5f5afd4a49587f9eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::motecontrol_impl::motecontrol_impl</definition>
+        <argsstring>()</argsstring>
+        <name>motecontrol_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1a2c33239c269f08513beb01d52e3b7f0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::motecontrol_impl::~motecontrol_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~motecontrol_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1ac471987c1208bc7b619876d90d041d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::motecontrol_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1a9c45aa320f95108206d4264a228105ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tfg::motecontrol_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1a459673b3bf68fd88ea84a8b1d9005a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::tfg::motecontrol_impl::toggleRed</definition>
+        <argsstring>()</argsstring>
+        <name>toggleRed</name>
+        <reimplements refid="classgr_1_1tfg_1_1motecontrol_1a581c6d124e510a93d74f30821ff9bb31">toggleRed</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1a13d6259f884ed56b70922601383668ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::tfg::motecontrol_impl::toggleGreen</definition>
+        <argsstring>()</argsstring>
+        <name>toggleGreen</name>
+        <reimplements refid="classgr_1_1tfg_1_1motecontrol_1a095ee7fa331f469da908e43c500c0dc3">toggleGreen</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1motecontrol__impl_1af007861c1d539b850cd3dc23d1e660f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::tfg::motecontrol_impl::toggleYellow</definition>
+        <argsstring>()</argsstring>
+        <name>toggleYellow</name>
+        <reimplements refid="classgr_1_1tfg_1_1motecontrol_1ade4318d5c41cf9d589ae1a10c35d11ea">toggleYellow</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="38" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="125">
+        <label>gr::tfg::motecontrol_impl</label>
+        <link refid="classgr_1_1tfg_1_1motecontrol__impl"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>block</label>
+      </node>
+      <node id="126">
+        <label>gr::tfg::motecontrol</label>
+        <link refid="classgr_1_1tfg_1_1motecontrol"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="128">
+        <label>gr::tfg::motecontrol_impl</label>
+        <link refid="classgr_1_1tfg_1_1motecontrol__impl"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>block</label>
+      </node>
+      <node id="129">
+        <label>gr::tfg::motecontrol</label>
+        <link refid="classgr_1_1tfg_1_1motecontrol"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" line="14" column="1" bodyfile="/home/zigbee/gr-tfg/lib/motecontrol_impl.h" bodystart="13" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1ac471987c1208bc7b619876d90d041d79" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a9c45aa320f95108206d4264a228105ed" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol_1aa5a4ffea32d99a0654b37aab9e89e235" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1ac7ca28258a31fa5f5afd4a49587f9eae" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>motecontrol_impl</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1ac22f1e013d6f2af1ac106b8be24d09fe" prot="private" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>moteStates</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a295354754bc26e9d8e60ab715fb2b1ce" prot="private" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>msg_handler</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a08de96e8d4c8891eb886a03261d88a0c" prot="private" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>nextAdd</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a1f5fb8ae8f1fbbd921cc0869e58264d1" prot="private" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>pending</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a3c852155d54b8fba15406f8cdfdcb791" prot="private" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>pendingLong</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a4187e6ce612f7b0137e538cd3754495d" prot="private" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>pendingShort</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a6692eb257c54787f06f0c1867c13f212" prot="private" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>sendBeacon</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol_1afa11cac19638347d4642cbacb666a9b1" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a13d6259f884ed56b70922601383668ae" prot="public" virt="virtual"><scope>gr::tfg::motecontrol_impl</scope><name>toggleGreen</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a459673b3bf68fd88ea84a8b1d9005a97" prot="public" virt="virtual"><scope>gr::tfg::motecontrol_impl</scope><name>toggleRed</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1af007861c1d539b850cd3dc23d1e660f1" prot="public" virt="virtual"><scope>gr::tfg::motecontrol_impl</scope><name>toggleYellow</name></member>
+      <member refid="classgr_1_1tfg_1_1motecontrol__impl_1a2c33239c269f08513beb01d52e3b7f0c" prot="public" virt="non-virtual"><scope>gr::tfg::motecontrol_impl</scope><name>~motecontrol_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

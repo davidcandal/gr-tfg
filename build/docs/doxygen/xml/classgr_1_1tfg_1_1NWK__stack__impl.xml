@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tfg_1_1NWK__stack__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tfg::NWK_stack_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tfg_1_1NWK__stack" prot="public" virt="non-virtual">gr::tfg::NWK_stack</basecompoundref>
+    <includes refid="NWK__stack__impl_8h" local="no">NWK_stack_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tfg_1_1NWK__stack__impl_1aceef8dfe85d6f234ba1084439fcaa768" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tfg::NWK_stack_impl::sequenceNumber</definition>
+        <argsstring></argsstring>
+        <name>sequenceNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="17" column="1" bodyfile="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tfg_1_1NWK__stack__impl_1a64c125cb94ab4ff333e93c9bdd6db37a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::NWK_stack_impl::NWK_stack_impl</definition>
+        <argsstring>(bool debugInput, bool debugOutput)</argsstring>
+        <name>NWK_stack_impl</name>
+        <param>
+          <type>bool</type>
+          <declname>debugInput</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>debugOutput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1NWK__stack__impl_1acc32da6e3416bbf3b03a212fa926805f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tfg::NWK_stack_impl::~NWK_stack_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~NWK_stack_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1NWK__stack__impl_1a1d86f83cffa38ca03f3048c4a98711f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::NWK_stack_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1NWK__stack__impl_1ae4e54a5b6678b943fe199d37b1f06ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tfg::NWK_stack_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1NWK__stack__impl_1a7c1b4e2f632ab21207e31786a0118eec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::NWK_stack_impl::msg_from_APS</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_from_APS</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tfg_1_1NWK__stack__impl_1ab709484aaa0e112a6ec99116d88d8905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tfg::NWK_stack_impl::msg_from_MAC</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>msg_from_MAC</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="138">
+        <label>block</label>
+      </node>
+      <node id="137">
+        <label>gr::tfg::NWK_stack</label>
+        <link refid="classgr_1_1tfg_1_1NWK__stack"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>gr::tfg::NWK_stack_impl</label>
+        <link refid="classgr_1_1tfg_1_1NWK__stack__impl"/>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="141">
+        <label>block</label>
+      </node>
+      <node id="140">
+        <label>gr::tfg::NWK_stack</label>
+        <link refid="classgr_1_1tfg_1_1NWK__stack"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>gr::tfg::NWK_stack_impl</label>
+        <link refid="classgr_1_1tfg_1_1NWK__stack__impl"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" line="12" column="1" bodyfile="/home/zigbee/gr-tfg/lib/NWK_stack_impl.h" bodystart="12" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tfg_1_1NWK__stack__impl_1a1d86f83cffa38ca03f3048c4a98711f4" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack__impl_1ae4e54a5b6678b943fe199d37b1f06ad4" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack_1a0cc72e7f245ead2836e5b5b031d54c92" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack__impl_1a7c1b4e2f632ab21207e31786a0118eec" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>msg_from_APS</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack__impl_1ab709484aaa0e112a6ec99116d88d8905" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>msg_from_MAC</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack__impl_1a64c125cb94ab4ff333e93c9bdd6db37a" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>NWK_stack_impl</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack__impl_1aceef8dfe85d6f234ba1084439fcaa768" prot="private" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>sequenceNumber</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack_1a583a264704ca402ccab64326370629a5" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tfg_1_1NWK__stack__impl_1acc32da6e3416bbf3b03a212fa926805f" prot="public" virt="non-virtual"><scope>gr::tfg::NWK_stack_impl</scope><name>~NWK_stack_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

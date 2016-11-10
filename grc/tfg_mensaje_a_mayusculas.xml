@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<block>
+  <name>Mensaje a mayuscula</name>
+  <key>tfg_mensaje_a_mayusculas</key>
+  <category>[David]</category>
+  <import>import tfg</import>
+  <make>tfg.mensaje_a_mayusculas()</make>
+
+  <sink>
+    <name>entrada</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <source>
+    <name>salida</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+</block>
