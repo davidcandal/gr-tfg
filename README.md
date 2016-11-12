@@ -1,5 +1,5 @@
 # gr-tfg
-SDR ZigBee
+A SDR ZigBee implementation.
 
 Based on Bastian Bloessl IEEE802.15.4 OQPSK transceiver (https://github.com/bastibl/gr-ieee802-15-4). Developed over GNURadio.
 
