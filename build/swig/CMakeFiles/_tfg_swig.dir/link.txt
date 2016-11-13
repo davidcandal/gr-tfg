@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared  -o _tfg_swig.so CMakeFiles/_tfg_swig.dir/tfg_swigPYTHON_wrap.cxx.o -lpython2.7 ../lib/libgnuradio-tfg-1.0.0git.so.0.0.0 -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so /usr/local/lib/libgnuradio-pmt.so -Wl,-rpath,/home/zigbee/gr-tfg/build/lib:/usr/local/lib: 
